@@ -8,7 +8,7 @@ RUN set -ex \
     && apk add --no-progress --virtual .letsencrypt-rundeps \
                dialog \
                augeas-libs \
-               libffi \
+               libffi wget \
                libssl1.0 \
                ca-certificates \
                binutils \
